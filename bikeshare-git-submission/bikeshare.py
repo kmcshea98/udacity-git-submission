@@ -3,6 +3,7 @@ import time
 import pandas as pd
 import numpy as np
 
+# Specifies which csv file will load juding from which city the user selects
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
