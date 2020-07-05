@@ -15,4 +15,13 @@
  washington.csv
 
  Credits
- It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted
+ 
+https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf
+
+StackOverflow.com
+
+https://realpython.com/python-conditional-statements/
+
+Revision of Intro to Python modules: Data Structures, Control Flow etc.
