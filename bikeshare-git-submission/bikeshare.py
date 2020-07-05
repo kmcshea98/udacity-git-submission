@@ -11,7 +11,7 @@ def get_filters():
     #The user will specify their search criteria by using the filters below.
     print('''Hello user! Let's begin looking at some bikeshare data.''')
 
-    #Select which city you wish to analyse
+    #Select which city you wish to analyse & designates which csv file to read.
     city_input = input("Please select one of the following cities to begin: Chicago, New York City or Washington \n").lower()
     while city_input not in ['chicago', 'new york city', 'washington']:
         print("Apologies, your entry is invalid. Please try again!")
@@ -40,7 +40,7 @@ def get_filters():
     return _city, _month, _day
 
 def load_data(city, month, day):
-    #Loads data based on filters designated by the user
+    #Loads data based on filters designated by the user in the get_filters function.
     df = pd.read_csv(CITY_DATA[city])
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['month'] = df['Start Time'].dt.month
