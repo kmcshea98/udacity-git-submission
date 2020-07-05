@@ -1,3 +1,4 @@
+# Loads Numpy & pandas library into program
 import time
 import pandas as pd
 import numpy as np
